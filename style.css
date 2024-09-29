@@ -1,11 +1,38 @@
 body {
     background-color:rgb(170, 241, 241) ;
+    font-style: bold;
 }
 
+
 img {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 260px;
     border: 20px;
-    border-color: black;
+    border-color: bisque;
     border-style: solid;
+    margin-right: 10px;
+    /* float: left; */
+    box-sizing: border-box;
+  
+  
+}
+div{
+    display: flex;
+}
+#biography {
+    width: 1500px;
+    height: 100px;
+    overflow: auto;
+    background-color: darkgoldenrod;
+    border: thin;
+    border-color: bisque;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-optical-sizing: auto;
+
+}
+button{
+    cursor: pointer;
 }
